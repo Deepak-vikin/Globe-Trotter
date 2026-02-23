@@ -1,0 +1,26 @@
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Virtual Environments ─────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── SQLite Database ──────────────────────
+*.db
+*.sqlite3
+
+# ── Environment Variables ────────────────
+.env
+.env.*
+
+# ── IDEs ─────────────────────────────────
+.vscode/
+.idea/
+
+# ── OS ───────────────────────────────────
+.DS_Store
+Thumbs.db
