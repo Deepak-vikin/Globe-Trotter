@@ -11,6 +11,8 @@ from pydantic import BaseModel, EmailStr, Field
         #Field is used to add metadata to the data.
 
 import database as db
+import recommendation_agent as rec
+
         #Importing database.py as db
 
 #STARTUP/SHUTDOWN LOGIC
@@ -58,6 +60,8 @@ class UserResponse(BaseModel):
     country:    str
     created_at: str
 
+
+
 #Routes
 @app.get("/health", tags=["Health"])
 def health():
@@ -88,3 +92,19 @@ def login(p: LoginRequest):
 @app.get("/api/users", response_model=list[UserResponse], tags=["Admin"])
 def list_users():
     return db.get_all_users()
+
+
+@app.get("/api/recommendations", tags=["Recommendations"])
+async def recommendations(email: str):
+    user = db.find_user_by_email(email)
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND,
+                            detail="User not found.")
+    city    = user.get("city", "")
+    state   = user.get("state", "")
+    country = user.get("country", "")
+    if not city:
+        raise HTTPException(status.HTTP_400_BAD_REQUEST,
+                            detail="No city set in profile. Update your location.")
+    return await rec.get_recommendations(city, state, country)
+

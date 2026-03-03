@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Globe Trotter | Register</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
@@ -23,11 +25,20 @@
 
             <div class="section-label">
                 📍 Your Location
-                <span class="section-hint">(Provide Valid Details)</span>
+                <span class="section-hint">(Optional)</span>
             </div>
-            <input type="text" id="regCity" placeholder="City" required />
-            <input type="text" id="regState" placeholder="State / Province" required />
-            <input type="text" id="regCountry" placeholder="Country" required />
+            <div class="autocomplete">
+                <input type="text" id="regCountry" placeholder="Country" autocomplete="off" />
+                <div class="autocomplete-items" id="countryList"></div>
+            </div>
+            <div class="autocomplete">
+                <input type="text" id="regState" placeholder="State / Province" autocomplete="off" />
+                <div class="autocomplete-items" id="stateList"></div>
+            </div>
+            <div class="autocomplete">
+                <input type="text" id="regCity" placeholder="City" autocomplete="off" />
+                <div class="autocomplete-items" id="cityList"></div>
+            </div>
 
             <div id="registerStatus" class="status"></div>
             <button type="submit" id="registerBtn">Create My Account</button>
