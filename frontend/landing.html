@@ -1,54 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Globe Trotter | Dashboard</title>
-    <meta name="description"
-        content="Explore top regional travel destinations and plan your next adventure with Globe Trotter." />
     <link rel="stylesheet" href="style.css" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
-
 <body class="landing-page">
     <div class="landing-card">
-        <!-- navbar -->
-        <header class="navbar" id="landingNavbar">
-            <div class="logo">GlobeTrotter</div>
-        </header>
-
-        <!-- banner -->
-        <div class="banner" id="landingBanner">
-            <h2>Plan your next trip</h2>
-        </div>
-
-        <!-- Top Regional Picks -->
+        <header class="navbar" id="landingNavbar"><div class="logo">GlobeTrotter</div></header>
+        <div class="banner" id="landingBanner"><h2>Plan your next trip</h2></div>
+        
         <div class="dashboard-section">
             <div class="section-header">
-                <h3>Top Picks in <span id="regionName">your region</span></h3>
+                <h3>Top Picks From <span id="regionName">your state</span></h3>
                 <div class="line"></div>
             </div>
-            <div class="cards-row square-cards" id="touristSpots">
-                <!-- Populated dynamically by recommendation agent -->
-            </div>
+            <div class="cards-row square-cards" id="touristSpots"></div>
         </div>
-
     </div>
-
-    <!-- FAB -->
     <button class="fab" id="planTripBtn">
-        <svg style="width:20px;height:20px;vertical-align:middle;margin-right:8px" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-        </svg>
+        <svg style="width:20px;height:20px;vertical-align:middle;margin-right:8px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
         Plan a trip
     </button>
-
     <script src="sample.js"></script>
 </body>
-
 </html>

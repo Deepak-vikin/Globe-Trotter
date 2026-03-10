@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe Trotter | Plan a Trip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body class="landing-page fade-in">
+    <div class="landing-card" style="margin: 40px auto;">
+        <header class="navbar" id="plannerNavbar">
+            <div class="logo">GlobeTrotter</div>
+            <a href="landing.html" style="color: #fff; text-decoration: none; font-weight: 500;">Back to Dashboard</a>
+        </header>
+
+        <div class="section-header">
+            <h3>Plan a new trip</h3>
+            <div class="line"></div>
+        </div>
+
+        <form id="planTripForm" style="margin-bottom: 40px;">
+            <div style="display: flex; flex-direction: column; gap: 15px; max-width: 600px;">
+                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
+                    <label style="width: 120px; font-weight: 500;">Country:</label>
+                    <div style="position: relative; flex: 1;">
+                        <input type="text" id="tripCountry" placeholder="Select Country" autocomplete="off" style="margin-bottom: 0;" required />
+                        <div id="tripCountryList" class="autocomplete-items"></div>
+                    </div>
+                </div>
+                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
+                    <label style="width: 120px; font-weight: 500;">State:</label>
+                    <div style="position: relative; flex: 1;">
+                        <input type="text" id="tripState" placeholder="Select State" autocomplete="off" style="margin-bottom: 0;" required />
+                        <div id="tripStateList" class="autocomplete-items"></div>
+                    </div>
+                </div>
+                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
+                    <label style="width: 120px; font-weight: 500;">City:</label>
+                    <div style="position: relative; flex: 1;">
+                        <input type="text" id="tripCity" placeholder="Select City" autocomplete="off" style="margin-bottom: 0;" required />
+                        <div id="tripCityList" class="autocomplete-items"></div>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <label style="width: 120px; font-weight: 500;">Start Date:</label>
+                    <input type="date" id="tripStart" style="flex: 1; margin-bottom: 0;" required />
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <label style="width: 120px; font-weight: 500;">End Date:</label>
+                    <input type="date" id="tripEnd" style="flex: 1; margin-bottom: 0;" required />
+                </div>
+                <div style="margin-top: 15px;">
+                    <button type="submit" id="makeNewTripBtn" style="max-width: 250px;">Make a new Trip</button>
+                    <div id="planTripStatus" class="status"></div>
+                </div>
+            </div>
+        </form>
+
+        <div class="dashboard-section">
+            <div class="section-header">
+                <h3>Suggestion for Places to Visit</h3>
+                <div class="line"></div>
+            </div>
+            <div class="cards-row square-cards" id="planTouristSpots"></div>
+        </div>
+    </div>
+    <script src="sample.js"></script>
+</body>
+</html>

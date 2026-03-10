@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Globe Trotter | Register</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
-
 <body>
     <div class="card">
         <div class="logo">🌍 GlobeTrotter</div>
         <h1>Create Account</h1>
         <p class="sub">Begin your journey — thousands of destinations await</p>
-
+        
         <form id="registerForm">
             <input type="text" id="regName" placeholder="Full Name" required />
             <input type="email" id="regEmail" placeholder="Email Address" required />
             <input type="password" id="regPassword" placeholder="Create Password" required />
             <input type="password" id="regConfirm" placeholder="Confirm Password" required />
-
-            <div class="section-label">
-                📍 Your Location
-                <span class="section-hint">(Optional)</span>
-            </div>
+            
+            <div class="section-label">📍 Your Location <span class="section-hint" style="color: #ff8787;">(Required)</span></div>
             <div class="autocomplete">
-                <input type="text" id="regCountry" placeholder="Country" autocomplete="off" />
+                <input type="text" id="regCountry" placeholder="Country" autocomplete="off" required />
                 <div class="autocomplete-items" id="countryList"></div>
             </div>
             <div class="autocomplete">
-                <input type="text" id="regState" placeholder="State / Province" autocomplete="off" />
+                <input type="text" id="regState" placeholder="State / Province" autocomplete="off" required />
                 <div class="autocomplete-items" id="stateList"></div>
             </div>
             <div class="autocomplete">
-                <input type="text" id="regCity" placeholder="City" autocomplete="off" />
+                <input type="text" id="regCity" placeholder="City" autocomplete="off" required />
                 <div class="autocomplete-items" id="cityList"></div>
             </div>
-
             <div id="registerStatus" class="status"></div>
             <button type="submit" id="registerBtn">Create My Account</button>
         </form>
@@ -49,5 +41,4 @@
     </div>
     <script src="sample.js"></script>
 </body>
-
 </html>
