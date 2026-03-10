@@ -1,0 +1,1652 @@
+[
+  {
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.075833333333,
+    "lon": 72.8775,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20view%20of%20Taj%20Palace%20Hotel%20and%20Taj%20Tower%20with%20the%20iconic%20Gateway%20of%20India%20in%20the%20background%20%28cropped%29.jpg",
+    "type": "City",
+    "popularity": 222
+  },
+  {
+    "name": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "lat": 28.613888888889,
+    "lon": 77.208888888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/India%20Gate%20Legendary%20Saga%20Of%20Supreme%20Sacrifice.jpg",
+    "type": "City",
+    "popularity": 217
+  },
+  {
+    "name": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "lat": 28.666666666667,
+    "lon": 77.216666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fort%20in%20Delhi%2003-2016%20img3.jpg",
+    "type": "City",
+    "popularity": 201
+  },
+  {
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 22.5675,
+    "lon": 88.37,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ketan%20donate4.jpg",
+    "type": "City",
+    "popularity": 198
+  },
+  {
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 12.9791198,
+    "lon": 77.5912997,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/UB%20City.jpg",
+    "type": "City",
+    "popularity": 159
+  },
+  {
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 13.0825,
+    "lon": 80.275,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ripon%20Building%20aerial%20view.jpg",
+    "type": "City",
+    "popularity": 157
+  },
+  {
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 23.021944444444,
+    "lon": 72.579722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amdavad%20Aerial.jpg",
+    "type": "City",
+    "popularity": 142
+  },
+  {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 26.915,
+    "lon": 75.82,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaipur%20Montage.png",
+    "type": "City",
+    "popularity": 141
+  },
+  {
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "lat": 17.361666666667,
+    "lon": 78.474722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hyderabad%20Montage%202020.jpg",
+    "type": "City",
+    "popularity": 140
+  },
+  {
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 27.18,
+    "lon": 78.02,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aks%20The%20Reflection%20Taj%20Mahal.jpg",
+    "type": "City",
+    "popularity": 135
+  },
+  {
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.318888888889,
+    "lon": 83.012777777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Varanasi%2C%20India%2C%20Varanasi%20skyline%20in%20the%20evening.jpg",
+    "type": "City",
+    "popularity": 133
+  },
+  {
+    "name": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 18.521111111111,
+    "lon": 73.855277777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shaniwar%20Wada%20Main%20Gate%2001.jpg",
+    "type": "City",
+    "popularity": 127
+  },
+  {
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 26.847,
+    "lon": 80.947,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gomti%20river%20in%20Downtown%20New%20Lucknow.JPG",
+    "type": "City",
+    "popularity": 121
+  },
+  {
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.25,
+    "lon": 77.416666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Bhopal.JPG",
+    "type": "City",
+    "popularity": 118
+  },
+  {
+    "name": "Chandigarh",
+    "state": "Punjab/Haryana",
+    "country": "India",
+    "lat": 30.736388888889,
+    "lon": 76.788333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Open%20Hand%20Monument%20and%20a%20Rose.jpeg",
+    "type": "City",
+    "popularity": 117
+  },
+  {
+    "name": "Patna",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 25.61,
+    "lon": 85.141388888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%2C%20Patna%20%28314731093%29.jpg",
+    "type": "City",
+    "popularity": 114
+  },
+  {
+    "name": "Amritsar",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 31.626917,
+    "lon": 74.87704,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amritsar-header.jpg",
+    "type": "City",
+    "popularity": 112
+  },
+  {
+    "name": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.45,
+    "lon": 81.85,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Allahabad%20city.jpg",
+    "type": "City",
+    "popularity": 110
+  },
+  {
+    "name": "Surat",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 21.205,
+    "lon": 72.84,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Surat%20at%20night.JPG",
+    "type": "City",
+    "popularity": 108
+  },
+  {
+    "name": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 9.9666666666667,
+    "lon": 76.283333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kochi%20India.jpg",
+    "type": "City",
+    "popularity": 107
+  },
+  {
+    "name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 26.4725,
+    "lon": 80.331111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/JK%20Temple%28Juggilal%20Kamlapati%20temple%29%20is%20a%20temple%20in%20the%20Indian%20city%20of%20Kanpur.It%20is%20considered%20to%20be%20a%20unique%20blend%20of%20ancient%20and%20modern%20architecture.jpg",
+    "type": "City",
+    "popularity": 106
+  },
+  {
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 8.4875,
+    "lon": 76.9525,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Thiruvananthapuram%20Montage.jpg",
+    "type": "City",
+    "popularity": 104
+  },
+  {
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "country": "India",
+    "lat": 20.295,
+    "lon": 85.825,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lingaraj%20Temple%20in%20Mansoon%2C%202023.jpg",
+    "type": "City",
+    "popularity": 100
+  },
+  {
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 21.149722222222,
+    "lon": 79.080555555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sitabuldi%20Market.JPG",
+    "type": "City",
+    "popularity": 100
+  },
+  {
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 22.718611111111,
+    "lon": 75.855,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Indore%20Rajwada.jpg",
+    "type": "City",
+    "popularity": 99
+  },
+  {
+    "name": "Agartala",
+    "state": "Tripura",
+    "country": "India",
+    "lat": 23.833333333333,
+    "lon": 91.266666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agartala-mayday152.jpg",
+    "type": "City",
+    "popularity": 97
+  },
+  {
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "country": "India",
+    "lat": 27.33,
+    "lon": 88.62,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sikkim%20Gangtok.jpg",
+    "type": "City",
+    "popularity": 94
+  },
+  {
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 9.9196611111111,
+    "lon": 78.119394444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Madurai%2C%20India.jpg",
+    "type": "City",
+    "popularity": 94
+  },
+  {
+    "name": "Mysore",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 12.308611111111,
+    "lon": 76.653055555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mysore%20Palace%2C%20India%20%28photo%20-%20Jim%20Ankan%20Deka%29.jpg",
+    "type": "City",
+    "popularity": 94
+  },
+  {
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "country": "India",
+    "lat": 34.091111111111,
+    "lon": 74.806111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Srinagar%20pano.jpg",
+    "type": "City",
+    "popularity": 93
+  },
+  {
+    "name": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "lat": 26.1805876,
+    "lon": 91.750238,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Guwahati%20citysky.jpg",
+    "type": "City",
+    "popularity": 93
+  },
+  {
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 17.693888888889,
+    "lon": 83.292222222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Visakhapatnam%20Montage.png",
+    "type": "City",
+    "popularity": 93
+  },
+  {
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "lat": 21.2379468,
+    "lon": 81.6336833,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TempioRaipur.jpg",
+    "type": "City",
+    "popularity": 93
+  },
+  {
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 26.2125,
+    "lon": 78.1775,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/269%20Gwalior.jpg",
+    "type": "City",
+    "popularity": 91
+  },
+  {
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "country": "India",
+    "lat": 30.318,
+    "lon": 78.029,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dehradun%20India%202006-11.JPG",
+    "type": "City",
+    "popularity": 91
+  },
+  {
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "lat": 31.103333333333,
+    "lon": 77.172222222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimla%20skyline.jpg",
+    "type": "City",
+    "popularity": 90
+  },
+  {
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "country": "India",
+    "lat": 23.355555555556,
+    "lon": 85.334722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20From%20Pahari%20Temple.jpg",
+    "type": "City",
+    "popularity": 90
+  },
+  {
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 26.294444444444,
+    "lon": 73.027777777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jodhpur%2C%20India%2C%20Panorama%20of%20Jodhpur%203.jpg",
+    "type": "City",
+    "popularity": 90
+  },
+  {
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 27.0375,
+    "lon": 88.263055555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Darjeeling.jpg",
+    "type": "City",
+    "popularity": 89
+  },
+  {
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 22.3,
+    "lon": 73.2,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NyayM.jpg",
+    "type": "City",
+    "popularity": 89
+  },
+  {
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "country": "India",
+    "lat": 23.733333333333,
+    "lon": 92.716666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aizwal%2C%20Mizoram..JPG",
+    "type": "City",
+    "popularity": 88
+  },
+  {
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "country": "India",
+    "lat": 25.574444444444,
+    "lon": 91.878888888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shillong.jpg",
+    "type": "City",
+    "popularity": 88
+  },
+  {
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 26.468,
+    "lon": 74.639,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Prithvi%20Raj%20Chauhan%20%28Edited%29.jpg",
+    "type": "City",
+    "popularity": 87
+  },
+  {
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 20.0,
+    "lon": 73.783333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gandhi%20Talav%20Godavari%20Nashik%20Maharashtra%20%28cropped%29.jpg",
+    "type": "City",
+    "popularity": 87
+  },
+  {
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 11.000833333333,
+    "lon": 76.963333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20View%20of%20Coimbatore%20from%20Atop%20Marudhamalai%20Temple.jpg",
+    "type": "City",
+    "popularity": 87
+  },
+  {
+    "name": "Mangaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 12.871666666667,
+    "lon": 74.8425,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mangalore%20Skyline%200151.jpg",
+    "type": "City",
+    "popularity": 86
+  },
+  {
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 30.908333333333,
+    "lon": 75.848611111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Sunder%20Nagar%2C%20Ludhiana.jpg",
+    "type": "City",
+    "popularity": 85
+  },
+  {
+    "name": "Imphal",
+    "state": "Manipur",
+    "country": "India",
+    "lat": 24.82,
+    "lon": 93.95,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Imphal%20At%20Dusk.jpg",
+    "type": "City",
+    "popularity": 85
+  },
+  {
+    "name": "Aurangabad",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.88,
+    "lon": 75.32,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bibi%20Ka%20Maqbara%20in%20the%20morning%20hours%2C%20Aurangabad%2C%20Maharashtra%2C%20India%2037.jpg",
+    "type": "City",
+    "popularity": 84
+  },
+  {
+    "name": "Gandhinagar",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 23.223,
+    "lon": 72.65,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akshardham%20Gandhinagar%20Gujarat.jpg",
+    "type": "City",
+    "popularity": 84
+  },
+  {
+    "name": "Kozhikode",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 11.247777777778,
+    "lon": 75.780277777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Calicut-bus-stand.JPG",
+    "type": "City",
+    "popularity": 84
+  },
+  {
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.516666666667,
+    "lon": 80.616666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vijayawada%20from%20Gandhi%20Hill.jpg",
+    "type": "City",
+    "popularity": 83
+  },
+  {
+    "name": "Panaji",
+    "state": "Goa",
+    "country": "India",
+    "lat": 15.48,
+    "lon": 73.83,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Panaji%2C%20nostra%20signora%20dell%27immacolata%20concezione%2C%20esterno%2004.jpg",
+    "type": "City",
+    "popularity": 83
+  },
+  {
+    "name": "Fatehpur Sikri",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 27.091111111111,
+    "lon": 77.661111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fatehpur%20Sikri-%20Hamamm.jpg",
+    "type": "City",
+    "popularity": 82
+  },
+  {
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.98,
+    "lon": 77.706388888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Meerut%20Ghantaghar.jpg",
+    "type": "City",
+    "popularity": 82
+  },
+  {
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 24.583333333333,
+    "lon": 73.683333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Udaipur-Stadtpalast-42-vom%20Picholasee-2018-gje.jpg",
+    "type": "City",
+    "popularity": 82
+  },
+  {
+    "name": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "lat": 32.215277777778,
+    "lon": 76.318611111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dharamshala%2003%20%28Cropped%29.jpg",
+    "type": "City",
+    "popularity": 81
+  },
+  {
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.166666666667,
+    "lon": 79.933333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Chausath-Yogini%20temple%20near%20BhedaGhat.JPG",
+    "type": "City",
+    "popularity": 81
+  },
+  {
+    "name": "Jamshedpur",
+    "state": "Jharkhand",
+    "country": "India",
+    "lat": 22.8,
+    "lon": 86.183333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cityscapes%20of%20Jamshedpur.jpg",
+    "type": "City",
+    "popularity": 80
+  },
+  {
+    "name": "Faridabad",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 28.41124,
+    "lon": 77.31316,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ESIC%20Faridabad.jpg",
+    "type": "City",
+    "popularity": 80
+  },
+  {
+    "name": "Srivijayapuram",
+    "state": "Andaman & Nicobar Islands",
+    "country": "India",
+    "lat": 11.666666666667,
+    "lon": 92.75,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Port%20blair1.jpg",
+    "type": "City",
+    "popularity": 80
+  },
+  {
+    "name": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "country": "India",
+    "lat": 27.1,
+    "lon": 93.62,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Itanagar%20town%2001.jpg",
+    "type": "City",
+    "popularity": 80
+  },
+  {
+    "name": "Aligarh",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 27.88,
+    "lon": 78.08,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aligarh%20Muslim%20University%20Masjid.jpg",
+    "type": "City",
+    "popularity": 78
+  },
+  {
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 31.325555555556,
+    "lon": 75.579166666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Devi%20Talab%20Mandir.jpg",
+    "type": "City",
+    "popularity": 77
+  },
+  {
+    "name": "Ujjain",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.182777777778,
+    "lon": 75.777222222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahakal%20Temple%20Ujjain.JPG",
+    "type": "City",
+    "popularity": 76
+  },
+  {
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.666666666667,
+    "lon": 77.416666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Academic%20Block%20%26%20Library%2C%20IMT%20Ghaziabad%20%28cropped%29.jpg",
+    "type": "City",
+    "popularity": 76
+  },
+  {
+    "name": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 10.826944444444,
+    "lon": 78.692777777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TrichyCity%2C%20KaveriRiver%20and%20Srirangam.jpg",
+    "type": "City",
+    "popularity": 76
+  },
+  {
+    "name": "Howrah",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 22.58,
+    "lon": 88.329444444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Howrah%20bridge%20betwixt%20Lights.jpg",
+    "type": "City",
+    "popularity": 75
+  },
+  {
+    "name": "Thane",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.18,
+    "lon": 72.963333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20from%2017%20minutes%27%20Yeoor%20walk%20%285676110302%29.jpg",
+    "type": "City",
+    "popularity": 75
+  },
+  {
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 22.291666666667,
+    "lon": 70.793333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rajkot%20-%20Aji%20River%20Overview.jpg",
+    "type": "City",
+    "popularity": 75
+  },
+  {
+    "name": "Kohima",
+    "state": "Nagaland",
+    "country": "India",
+    "lat": 25.666666666667,
+    "lon": 94.119444444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kohima%2024%20July%202021.jpeg",
+    "type": "City",
+    "popularity": 74
+  },
+  {
+    "name": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 26.799166666667,
+    "lon": 82.204444444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarayu%20River%20night%20view%2C%20Ayodhya%20001.jpg",
+    "type": "City",
+    "popularity": 73
+  },
+  {
+    "name": "Bikaner",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 28.018055555556,
+    "lon": 73.316944444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lalgarh%20palace%20bikaner2.jpg",
+    "type": "City",
+    "popularity": 73
+  },
+  {
+    "name": "Leh",
+    "state": "Ladakh",
+    "country": "India",
+    "lat": 34.164166666667,
+    "lon": 77.584722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leh%2C%20Ladakh%2C%20India.jpg",
+    "type": "City",
+    "popularity": 73
+  },
+  {
+    "name": "Jhansi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.44862,
+    "lon": 78.56962,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Jhansi%20from%20Sipri%27s%20Hilltop.jpg",
+    "type": "City",
+    "popularity": 73
+  },
+  {
+    "name": "Puri",
+    "state": "Odisha",
+    "country": "India",
+    "lat": 19.8,
+    "lon": 85.816666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Streetscape%2C%20Puri.JPG",
+    "type": "City",
+    "popularity": 72
+  },
+  {
+    "name": "Dispur",
+    "state": "Assam",
+    "country": "India",
+    "lat": 26.15,
+    "lon": 91.77,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Assam%20Secretariat%2C%20Dispur%2C%20August%2C%202008.jpg",
+    "type": "City",
+    "popularity": 72
+  },
+  {
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "country": "India",
+    "lat": 29.966666666667,
+    "lon": 78.166666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Har%20Ki%20Pauri%2C%20Haridwar.jpg",
+    "type": "City",
+    "popularity": 71
+  },
+  {
+    "name": "Navi Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.03,
+    "lon": 73.01,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Navi%20Mumbai%20Skyline.jpg",
+    "type": "City",
+    "popularity": 71
+  },
+  {
+    "name": "Gaya",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 24.75,
+    "lon": 85.016666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vishnupad%20Temple.JPG",
+    "type": "City",
+    "popularity": 70
+  },
+  {
+    "name": "Kota",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 25.18,
+    "lon": 75.83,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kota%20City%20of%20Rajasthan%20View.jpg",
+    "type": "City",
+    "popularity": 70
+  },
+  {
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 24.85,
+    "lon": 79.933333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Khajuraho%20tempel%20india.jpg",
+    "type": "City",
+    "popularity": 69
+  },
+  {
+    "name": "Pondicherry",
+    "state": "Puducherry",
+    "country": "India",
+    "lat": 11.93,
+    "lon": 79.83,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pondicherry%20Panorama%201.jpg",
+    "type": "City",
+    "popularity": 69
+  },
+  {
+    "name": "Cuttack",
+    "state": "Odisha",
+    "country": "India",
+    "lat": 20.45,
+    "lon": 85.866666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2-barabati-stadium-cuttack-odisha-city-hero.jpg",
+    "type": "City",
+    "popularity": 68
+  },
+  {
+    "name": "Solapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 17.670277777778,
+    "lon": 75.901111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Solapur%20Municipal%20Corporation%20building%2C%20Indra%20Bhuvan%20credit%20Alka%20Kshirsagar.jpg",
+    "type": "City",
+    "popularity": 68
+  },
+  {
+    "name": "Jammu",
+    "state": "Jammu & Kashmir",
+    "country": "India",
+    "lat": 32.73569,
+    "lon": 74.86911,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jammu%20city.jpg",
+    "type": "City",
+    "popularity": 68
+  },
+  {
+    "name": "Guntur",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.3,
+    "lon": 80.45,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pleasant%20Valley%2C%20Guntur.jpg",
+    "type": "City",
+    "popularity": 68
+  },
+  {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 26.916666666667,
+    "lon": 70.916666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaisalmer%20view.jpg",
+    "type": "City",
+    "popularity": 67
+  },
+  {
+    "name": "Bareilly",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.364,
+    "lon": 79.415,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bareilly%20Sunset.jpg",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Gurgaon",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 28.466666666667,
+    "lon": 77.033333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cyber%20Green%20Building%2C%20Gurgaon%2C%20Haryana%2C%20India%20-%2020070613.jpg",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Dhanbad",
+    "state": "Jharkhand",
+    "country": "India",
+    "lat": 23.79278,
+    "lon": 86.435,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20dhanbad.jpg",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Amravati",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 20.933333333333,
+    "lon": 77.75,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Amravati-City-Bus.jpg",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Belgaum",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 15.856944444444,
+    "lon": 74.504444444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Suvarna%20Soudha%20Belagavi12.jpg",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Jamnagar",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 22.47,
+    "lon": 70.07,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lakhota%20Tower%20in%20evening%20by%20Rangilo.JPG",
+    "type": "City",
+    "popularity": 66
+  },
+  {
+    "name": "Asansol",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 23.683333333333,
+    "lon": 86.966666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asansol%20skyline.jpg",
+    "type": "City",
+    "popularity": 65
+  },
+  {
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "country": "India",
+    "lat": 30.1,
+    "lon": 78.3,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20-%20Lakshman%20Jhula.jpg",
+    "type": "City",
+    "popularity": 65
+  },
+  {
+    "name": "Kolhapur",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 16.7,
+    "lon": 74.233333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kolhapur%20New%20Palace.jpg",
+    "type": "City",
+    "popularity": 64
+  },
+  {
+    "name": "Ahilyanagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.083333333333,
+    "lon": 74.733333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ahmednagarrailwaystation.jpg",
+    "type": "City",
+    "popularity": 64
+  },
+  {
+    "name": "Warangal",
+    "state": "Telangana",
+    "country": "India",
+    "lat": 17.975555555556,
+    "lon": 79.601111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WarangalMontage.jpg",
+    "type": "City",
+    "popularity": 64
+  },
+  {
+    "name": "Kollam",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 8.8852777777778,
+    "lon": 76.586388888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kollam%20Collage.png",
+    "type": "City",
+    "popularity": 63
+  },
+  {
+    "name": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 26.761111111111,
+    "lon": 83.366666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Goraghpur%2C%20railway%20station%20%282108819418%29.jpg",
+    "type": "City",
+    "popularity": 63
+  },
+  {
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 10.787,
+    "lon": 79.137806,
+    "image": "https://picsum.photos/seed/d70de610/480/320",
+    "type": "City",
+    "popularity": 63
+  },
+  {
+    "name": "Noida",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.57,
+    "lon": 77.32,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Noida%20city%20from%20the%20Hilton%20Noida.jpg",
+    "type": "City",
+    "popularity": 62
+  },
+  {
+    "name": "Patiala",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 30.566666666667,
+    "lon": 76.633333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Patiala%20State%20Monorail%20System.jpg",
+    "type": "City",
+    "popularity": 61
+  },
+  {
+    "name": "Bhilai",
+    "state": "Chhattisgarh",
+    "country": "India",
+    "lat": 21.21,
+    "lon": 81.38,
+    "image": "https://picsum.photos/seed/45f25a36/480/320",
+    "type": "City",
+    "popularity": 61
+  },
+  {
+    "name": "Bhagalpur",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 25.244444444444,
+    "lon": 86.971944444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Prabhatkhabar%20Bhagalpur.jpg",
+    "type": "City",
+    "popularity": 61
+  },
+  {
+    "name": "Kanchipuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 12.830833333333,
+    "lon": 79.707777777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kailasanathar%20temple%20Kanchipuram%20%2816%29.jpg",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Kanniyakumari",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 8.0911111111111,
+    "lon": 77.541666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kanyakumari%20Church%201.JPG",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Alwar",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 27.566666666667,
+    "lon": 76.616666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Alwar%20from%20bala%20quila.jpg",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Siliguri",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 26.72,
+    "lon": 88.42,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Siliguri%20view.jpg",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Salem",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 11.65,
+    "lon": 78.166666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Salem%20Seelanaickenpati.jpg",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Nellore",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 14.433333333333,
+    "lon": 79.966666666667,
+    "image": "https://picsum.photos/seed/c640c2f5/480/320",
+    "type": "City",
+    "popularity": 60
+  },
+  {
+    "name": "Daman",
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "country": "India",
+    "lat": 20.416938888889,
+    "lon": 72.834022222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gateway%20of%20Moti%20Daman.jpg",
+    "type": "City",
+    "popularity": 59
+  },
+  {
+    "name": "Thrissur",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 10.52,
+    "lon": 76.21,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ThrissurMontage%20new.jpg",
+    "type": "City",
+    "popularity": 58
+  },
+  {
+    "name": "Saharanpur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 29.964,
+    "lon": 77.546,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saharanpur.png",
+    "type": "City",
+    "popularity": 58
+  },
+  {
+    "name": "Bhavnagar",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 21.765,
+    "lon": 72.136944444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Bhavnagar.jpg",
+    "type": "City",
+    "popularity": 58
+  },
+  {
+    "name": "Moradabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 28.843236111111,
+    "lon": 78.728741666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moradabad%20009.jpg",
+    "type": "City",
+    "popularity": 58
+  },
+  {
+    "name": "Junagadh",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 21.52,
+    "lon": 70.47,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gate%20of%20Junagadh.jpg",
+    "type": "City",
+    "popularity": 58
+  },
+  {
+    "name": "Akola",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 20.733333333333,
+    "lon": 77.0,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/PDKV%20Akola%20-%20Agricultural%20University.png",
+    "type": "City",
+    "popularity": 57
+  },
+  {
+    "name": "Ambala",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 30.378611111111,
+    "lon": 76.7725,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ambala%20Cantonment%20Railway%20Station.jpg",
+    "type": "City",
+    "popularity": 57
+  },
+  {
+    "name": "Old Goa",
+    "state": "Goa",
+    "country": "India",
+    "lat": 15.50238,
+    "lon": 73.911746,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bom%20Jesus%20Basilica%2C%20Goa%20edit.JPG",
+    "type": "City",
+    "popularity": 57
+  },
+  {
+    "name": "Udupi",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 13.332222222222,
+    "lon": 74.746111111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Udupi%20Sri%20Krishna%20Matha%20Temple.jpg",
+    "type": "City",
+    "popularity": 57
+  },
+  {
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "country": "India",
+    "lat": 25.279166666667,
+    "lon": 91.724166666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cherrapunji.jpg",
+    "type": "City",
+    "popularity": 56
+  },
+  {
+    "name": "Darbhanga",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 26.156999,
+    "lon": 85.8995065,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Darbhanga%20images.png",
+    "type": "City",
+    "popularity": 56
+  },
+  {
+    "name": "Panipat",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 29.3875,
+    "lon": 76.97,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raja%20Hemu%27s%20%27Beheading%20Place%27.JPG",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Sarnath",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 25.381111111111,
+    "lon": 83.021388888889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sarnath1.jpg",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Pushkar",
+    "state": "Rajasthan",
+    "country": "India",
+    "lat": 26.490277777778,
+    "lon": 74.554166666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pushkar%2C%20India%2C%20Panoramic%20view%20of%20Pushkar.jpg",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Kurnool",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 15.822222222222,
+    "lon": 78.035,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/23%20-%20Telugu%20Talli%20Statue%20with%20Kondareddy%20Buruju%20as%20background.JPG",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Vijayapura",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 16.82442,
+    "lon": 75.71537,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ibrahim%20Rauza%2C%20An%20Architectural%20Marvel.jpg",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Kannur",
+    "state": "Kerala",
+    "country": "India",
+    "lat": 11.868888888889,
+    "lon": 75.355555555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kannur%20Skyline%203.jpg",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Kakinada",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.933333333333,
+    "lon": 82.216666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Satellite%20kkd.jpg",
+    "type": "City",
+    "popularity": 55
+  },
+  {
+    "name": "Porbandar",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 21.6425,
+    "lon": 69.604722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Porbandar%20skyline.JPG",
+    "type": "City",
+    "popularity": 54
+  },
+  {
+    "name": "Machilipatnam",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.166666666667,
+    "lon": 81.133333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Machilipatnam%20koneru%20center%202.JPG",
+    "type": "City",
+    "popularity": 53
+  },
+  {
+    "name": "Muzaffarpur",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 26.12,
+    "lon": 85.383333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muzaffarpur%2C%20Bihar.jpg",
+    "type": "City",
+    "popularity": 53
+  },
+  {
+    "name": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 8.7288888888889,
+    "lon": 77.708055555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nellaiappar2.jpg",
+    "type": "City",
+    "popularity": 52
+  },
+  {
+    "name": "Ulhasnagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.216666666667,
+    "lon": 73.15,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/R%20K%20Talreja%20College.png",
+    "type": "City",
+    "popularity": 52
+  },
+  {
+    "name": "Pathankot",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 32.268888888889,
+    "lon": 75.649722222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Pathankot%20City.jpg",
+    "type": "City",
+    "popularity": 52
+  },
+  {
+    "name": "Erode",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 11.340833333333,
+    "lon": 77.717222222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cauvery%20at%20Erode.JPG",
+    "type": "City",
+    "popularity": 52
+  },
+  {
+    "name": "Eluru",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 16.711666666667,
+    "lon": 81.103055555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Topography%20of%20Eluru.jpg",
+    "type": "City",
+    "popularity": 51
+  },
+  {
+    "name": "Vellore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 12.933333333333,
+    "lon": 79.133333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Vellore%20Skyline%20Montage%201.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Hastinapur",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 29.283333333333,
+    "lon": 78.033333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kailash%20Parvat%20Rachna%20-%202.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Bidar",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 17.9,
+    "lon": 77.55,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20the%20Bidar%20Fort.JPG",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Margao",
+    "state": "Goa",
+    "country": "India",
+    "lat": 15.271944444444,
+    "lon": 73.958333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Front%20Elevation%20of%20Margao%20Municipal%20Council%20%28cropped%29.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Burhanpur",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 21.3,
+    "lon": 76.226667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shahi%20Qila%2C%20Burhanpur.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Dwarka",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 22.240277777778,
+    "lon": 68.968611111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dwarkadheesh%20temple.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Thoothukudi",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 8.7833333333333,
+    "lon": 78.133333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tuticorin%20Thermal%20Power%20Station%20at%20Night%201%20crop.jpg",
+    "type": "City",
+    "popularity": 50
+  },
+  {
+    "name": "Ballary",
+    "state": "Karnataka",
+    "country": "India",
+    "lat": 15.15,
+    "lon": 76.933333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BellaryFort.jpg",
+    "type": "City",
+    "popularity": 49
+  },
+  {
+    "name": "Faizabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "lat": 26.783333333333,
+    "lon": 82.133333333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gulabbari.JPG",
+    "type": "City",
+    "popularity": 49
+  },
+  {
+    "name": "Dibrugarh",
+    "state": "Assam",
+    "country": "India",
+    "lat": 27.483333333333,
+    "lon": 94.9,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Night%20view%20of%20Dibrugarh.jpg",
+    "type": "City",
+    "popularity": 49
+  },
+  {
+    "name": "Hisar",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 29.148888888889,
+    "lon": 75.736666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisar%20Montage.jpg",
+    "type": "City",
+    "popularity": 49
+  },
+  {
+    "name": "Jalgaon",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 21.016666666667,
+    "lon": 75.566666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Khandesh%20Central.jpg",
+    "type": "City",
+    "popularity": 49
+  },
+  {
+    "name": "Ratlam",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.316666666667,
+    "lon": 75.066666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kedareshwar%20udit.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Bharuch",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 21.7,
+    "lon": 72.966666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BrSwamitemple.JPG",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Bhuj",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 23.25,
+    "lon": 69.67,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Prag%20Mahal%20Bhuj.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Tiruppur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 11.1075,
+    "lon": 77.3398,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tirupur.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Durgapur",
+    "state": "West Bengal",
+    "country": "India",
+    "lat": 23.55,
+    "lon": 87.32,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Durgapur%20City%20Centre%20aerial%20view.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Lothal",
+    "state": "Gujarat",
+    "country": "India",
+    "lat": 22.521388888889,
+    "lon": 72.249444444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Archeological%20Remains%20at%20the%20Lower%20Town%20of%20Lothal.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Kadapa",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "lat": 14.466666666667,
+    "lon": 78.816666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kadapa%20Montage.png",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Munger",
+    "state": "Bihar",
+    "country": "India",
+    "lat": 25.381,
+    "lon": 86.465,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Munger%20railway%20station%20with%20national%20flag.jpg",
+    "type": "City",
+    "popularity": 48
+  },
+  {
+    "name": "Bhiwandi",
+    "state": "Maharashtra",
+    "country": "India",
+    "lat": 19.3,
+    "lon": 73.066666666667,
+    "image": "https://picsum.photos/seed/415d4c94/480/320",
+    "type": "City",
+    "popularity": 47
+  },
+  {
+    "name": "Bathinda",
+    "state": "Punjab",
+    "country": "India",
+    "lat": 30.213333333333,
+    "lon": 74.951944444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Qila%20Mubarak%20in%20Bathinda.jpg",
+    "type": "City",
+    "popularity": 47
+  },
+  {
+    "name": "Dindigul",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "lat": 10.35,
+    "lon": 77.95,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dindigul.cvs.jpg",
+    "type": "City",
+    "popularity": 47
+  },
+  {
+    "name": "Rohtak",
+    "state": "Haryana",
+    "country": "India",
+    "lat": 28.9,
+    "lon": 76.566666666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MDU%20Main%20Entrance%20Gate.jpg",
+    "type": "City",
+    "popularity": 47
+  },
+  {
+    "name": "Vidisha",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "lat": 23.5239,
+    "lon": 77.8061,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Boar-carving%20Udaigiri%20Vidisha.jpg",
+    "type": "City",
+    "popularity": 47
+  },
+  {
+    "name": "Kargil",
+    "state": "Ladakh",
+    "country": "India",
+    "lat": 34.5594,
+    "lon": 76.1256,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kargil%20Town%20Panorama.jpg",
+    "type": "City",
+    "popularity": 47
+  }
+]
