@@ -19,41 +19,70 @@
             <div class="line"></div>
         </div>
 
-        <form id="planTripForm" style="margin-bottom: 40px;">
-            <div style="display: flex; flex-direction: column; gap: 15px; max-width: 600px;">
-                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
-                    <label style="width: 120px; font-weight: 500;">Country:</label>
-                    <div style="position: relative; flex: 1;">
-                        <input type="text" id="tripCountry" placeholder="Select Country" autocomplete="off" style="margin-bottom: 0;" required />
-                        <div id="tripCountryList" class="autocomplete-items"></div>
+        <form id="planTripForm" style="margin-bottom: 40px; margin-top: 20px;">
+            <div class="flight-widget">
+                <!-- From -->
+                <div class="fw-section" id="fwFromSection">
+                    <div class="fw-label">From</div>
+                    <div class="fw-main" id="fwFromMain">Loading...</div>
+                    <div class="fw-sub" id="fwFromSub">Please wait</div>
+                </div>
+
+                <div class="fw-divider">
+                    <div class="fw-swap" id="fwSwapBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0078d4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3L4 7L8 11"></path><path d="M4 7H20"></path><path d="M16 21L20 17L16 13"></path><path d="M20 17H4"></path></svg>
                     </div>
                 </div>
-                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
-                    <label style="width: 120px; font-weight: 500;">State:</label>
-                    <div style="position: relative; flex: 1;">
-                        <input type="text" id="tripState" placeholder="Select State" autocomplete="off" style="margin-bottom: 0;" required />
-                        <div id="tripStateList" class="autocomplete-items"></div>
-                    </div>
+
+                <!-- To -->
+                <div class="fw-section autocomplete" id="fwToSection">
+                    <div class="fw-label">To</div>
+                    <input type="text" id="globalPlaceSearch" class="fw-input-text" placeholder="Search..." autocomplete="off" required />
+                    <div class="fw-sub" id="fwToSub">Where do you want to go?</div>
+                    
+                    <div id="globalPlaceList" class="autocomplete-items"></div>
+                    
+                    <input type="hidden" id="tripCountry" required />
+                    <input type="hidden" id="tripState" required />
+                    <input type="hidden" id="tripCity" required />
                 </div>
-                <div class="autocomplete" style="display: flex; align-items: center; gap: 15px;">
-                    <label style="width: 120px; font-weight: 500;">City:</label>
-                    <div style="position: relative; flex: 1;">
-                        <input type="text" id="tripCity" placeholder="Select City" autocomplete="off" style="margin-bottom: 0;" required />
-                        <div id="tripCityList" class="autocomplete-items"></div>
-                    </div>
+
+                <!-- Departure -->
+                <div class="fw-section fw-date-section" id="fwDepartureSection">
+                    <div class="fw-label">Departure <span class="fw-dropdown-arrow">▾</span></div>
+                    <div class="fw-main" id="fwDateMain">...</div>
+                    <div class="fw-sub" id="fwDateSub">Date</div>
+                    <input type="date" id="tripStart" class="fw-date-hidden" required />
                 </div>
-                <div style="display: flex; align-items: center; gap: 15px;">
-                    <label style="width: 120px; font-weight: 500;">Start Date:</label>
-                    <input type="date" id="tripStart" style="flex: 1; margin-bottom: 0;" required />
+
+                <!-- Return -->
+                <div class="fw-section fw-date-section" id="fwReturnSection">
+                    <div class="fw-label">Return <span class="fw-dropdown-arrow">▾</span></div>
+                    <div class="fw-main" id="fwReturnMain">...</div>
+                    <div class="fw-sub" id="fwReturnSub">Date</div>
+                    <input type="date" id="tripEnd" class="fw-date-hidden" required />
                 </div>
-                <div style="display: flex; align-items: center; gap: 15px;">
-                    <label style="width: 120px; font-weight: 500;">End Date:</label>
-                    <input type="date" id="tripEnd" style="flex: 1; margin-bottom: 0;" required />
+            </div>
+
+            <!-- Transport Mode Selector -->
+            <div class="transport-modes" id="transportModes">
+                <div class="transport-option active" data-mode="flight">
+                    <svg class="transport-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5A1.5 1.5 0 0 0 11.5 2 1.5 1.5 0 0 0 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+                    <span>Flight</span>
                 </div>
-                <div style="margin-top: 15px;">
-                    <button type="submit" id="makeNewTripBtn" style="max-width: 250px;">Make a new Trip</button>
-                    <div id="planTripStatus" class="status"></div>
+                <div class="transport-option" data-mode="train">
+                    <svg class="transport-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8 2 4 2.5 4 6v9.5A3.5 3.5 0 0 0 7.5 19l-2 2v.5h2l2-2h5l2 2h2V21l-2-2a3.5 3.5 0 0 0 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3.5-7H6V6h5v4zm2 0V6h5v4h-5zm3.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>
+                    <span>Train</span>
                 </div>
+                <div class="transport-option" data-mode="bus">
+                    <svg class="transport-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm9 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM19 10H5V6h14v4z"/></svg>
+                    <span>Bus</span>
+                </div>
+            </div>
+
+            <div style="margin-top: 25px; text-align: center;">
+                <button type="submit" id="makeNewTripBtn" style="max-width: 250px; font-size: 1.1rem; padding: 16px; border-radius: 30px; background: #fff; color: #0f2c4a;">Make a Trip</button>
+                <div id="planTripStatus" class="status"></div>
             </div>
         </form>
 

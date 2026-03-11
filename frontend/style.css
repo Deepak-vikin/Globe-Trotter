@@ -65,3 +65,33 @@ button:hover, .fab:hover { transform: translateY(-3px); }
 .link-btn:hover { opacity: 1; text-decoration: underline; }
 .divider { margin: 25px 0 15px; font-size: .85rem; opacity: .7; }
 .section-label { font-size: .85rem; text-align: left; margin: 15px 0 8px; opacity: .9; font-weight: 500; }
+
+/* Flight Widget */
+.flight-widget { display: flex; align-items: stretch; background: transparent; border-radius: 16px; color: #000; padding: 0; margin-top: 15px; text-align: left; gap: 10px; }
+.fw-section { flex: 1; padding: 16px 22px; position: relative; border-right: none; min-height: 90px; display: flex; flex-direction: column; justify-content: center; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border: 1px solid #e8e8e8; }
+.fw-section:last-child { border-right: none; flex: 0.7; }
+.fw-label { font-size: 0.82rem; color: #777; font-weight: 500; margin-bottom: 6px; letter-spacing: 0.2px; }
+.fw-main { font-size: 1.85rem; font-weight: 700; color: #1a1a1a; font-family: 'Montserrat', sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.15; }
+.fw-sub { font-size: 0.8rem; color: #888; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; font-weight: 400; }
+.fw-divider { position: relative; width: 0; display: flex; align-items: center; }
+.fw-swap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 36px; height: 36px; background: #fff; border: 1.5px solid #d0d0d0; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 2; color: #0078d4; transition: all 0.2s ease; }
+.fw-swap:hover { background: #e8f4ff; border-color: #0078d4; box-shadow: 0 4px 14px rgba(0,120,212,0.2); }
+.fw-label .fw-dropdown-arrow { font-size: 0.7em; margin-left: 5px; color: #c0392b; vertical-align: middle; }
+
+.fw-input-text { background: transparent; border: none; padding: 0; margin: 0; outline: none; font-size: 1.85rem; font-weight: 700; color: #1a1a1a; font-family: 'Montserrat', sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.15; width: 100%; box-shadow: none; }
+.fw-input-text::placeholder { color: #bbb; font-weight: 500; }
+
+.fw-date-hidden { position: absolute; opacity: 0; width: 0; height: 0; padding: 0; margin: 0; border: none; pointer-events: none; }
+.fw-date-section { cursor: pointer; }
+
+.flight-widget .autocomplete-items { top: 100%; left: 0; width: 100%; margin-top: 8px; border: 1px solid #ddd; max-height: 250px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+.flight-widget .autocomplete-items div { padding: 12px 16px; color: #000; }
+.flight-widget .autocomplete-items div:hover { background: #0078d4; color: #fff; }
+
+/* Transport Mode Selector */
+.transport-modes { display: flex; gap: 12px; margin-top: 18px; justify-content: flex-start; }
+.transport-option { display: flex; align-items: center; gap: 8px; padding: 10px 22px; border-radius: 30px; cursor: pointer; transition: all 0.3s ease; background: rgba(255,255,255,0.12); border: 1.5px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.8); font-size: 0.9rem; font-weight: 500; backdrop-filter: blur(6px); user-select: none; }
+.transport-option:hover { background: rgba(255,255,255,0.22); border-color: rgba(255,255,255,0.5); color: #fff; transform: translateY(-1px); }
+.transport-option.active { background: linear-gradient(135deg, #0078d4, #00b4d8); border-color: transparent; color: #fff; box-shadow: 0 4px 16px rgba(0,120,212,0.35); }
+.transport-option.active:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,120,212,0.45); }
+.transport-icon { width: 20px; height: 20px; flex-shrink: 0; }

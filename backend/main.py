@@ -48,6 +48,15 @@ class UserResponse(BaseModel):
     country: str
     created_at: str
 
+class TripRequest(BaseModel):
+    email:          EmailStr
+    dest_city:      str = Field(..., min_length=1, max_length=200)
+    dest_state:     str = Field("", max_length=200)
+    dest_country:   str = Field("", max_length=200)
+    start_date:     str = Field(..., min_length=10, max_length=10)
+    return_date:    str = Field(..., min_length=10, max_length=10)
+    transport_mode: str = Field("flight", max_length=20)
+
 
 # ── Routes ───────────────────────────────────────────────────────────────────
 @app.get("/health", tags=["Health"])
@@ -88,3 +97,57 @@ async def recommendations(email: str):
         user.get("state", ""),
         user.get("country", "India"),
     )
+
+@app.post("/api/trips", status_code=status.HTTP_201_CREATED, tags=["Trips"])
+def create_trip(p: TripRequest):
+    user = db.find_user_by_email(p.email)
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="User not found.")
+    trip = db.create_trip(
+        user_id=user["id"],
+        dest_city=p.dest_city,
+        dest_state=p.dest_state,
+        dest_country=p.dest_country,
+        start_date=p.start_date,
+        return_date=p.return_date,
+        transport_mode=p.transport_mode,
+    )
+    return {"message": "Trip created successfully!", "trip": trip}
+
+@app.get("/api/trips", tags=["Trips"])
+def list_trips(email: str):
+    user = db.find_user_by_email(email)
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="User not found.")
+    return {"trips": db.get_user_trips(user["id"])}
+
+@app.put("/api/trips/{trip_id}", tags=["Trips"])
+def update_trip(trip_id: int, p: TripRequest):
+    user = db.find_user_by_email(p.email)
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="User not found.")
+    
+    success = db.update_trip(
+        user_id=user["id"],
+        trip_id=trip_id,
+        dest_city=p.dest_city,
+        dest_state=p.dest_state,
+        dest_country=p.dest_country,
+        start_date=p.start_date,
+        return_date=p.return_date,
+        transport_mode=p.transport_mode
+    )
+    if not success:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="Trip not found or unauthorized.")
+    return {"message": "Trip updated successfully!"}
+
+@app.delete("/api/trips/{trip_id}", tags=["Trips"])
+def delete_trip(trip_id: int, email: str):
+    user = db.find_user_by_email(email)
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="User not found.")
+    
+    success = db.delete_trip(user["id"], trip_id)
+    if not success:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, detail="Trip not found or unauthorized.")
+    return {"message": "Trip deleted successfully!"}
